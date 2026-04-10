@@ -61,11 +61,12 @@ profillerini kişiselleştirebildiği interaktif bir web platformudur.
 | Responsive Tasarım | Mobil, tablet ve bilgisayar uyumlu |
 | Animasyonlu Arayüz | CSS keyframes, hover efektleri, geçişler |
 
-## Klasör Yapısı (PDF Görsel 1'e Uygun)
+## Klasör Yapısı 
 
 turkey_guide/
 ├── README.md
 ├── database.sql
+├── index.php
 ├── docs/
 │ ├── requirements.md
 │ └── uml/
@@ -73,10 +74,34 @@ turkey_guide/
 │ └── class_diagram.md
 └── src/
 ├── config/
-├── models/
+│ └── database.php
 ├── controllers/
+│ ├── AuthController.php
+│ └── CityController.php
+├── models/
+│ ├── BaseModel.php
+│ ├── User.php
+│ ├── City.php
+│ ├── Comment.php
+│ └── Like.php
 ├── views/
+│ ├── partials/
+│ │ ├── header.php
+│ │ └── footer.php
+│ ├── index.php
+│ ├── login.php
+│ ├── register.php
+│ ├── dashboard.php
+│ ├── city.php
+│ └── profile.php
 ├── assets/
+│ ├── css/
+│ │ └── style.css
+│ ├── js/
+│ │ └── script.js
+│ └── images/
+│ ├── cities/
+│ └── uploads/
 └── index.php
 
 ## Geliştirici Notları
@@ -88,4 +113,4 @@ turkey_guide/
 - **Git** ile versiyonlanmıştır (5+ anlamlı commit)
 
 ## İletişim
-Proje ile ilgili sorularınız için Edip Pehlivanlı'ya başvurabilirsiniz.
+Proje ile ilgili sorularınız için Edip Pehlivanlı'ya başvurabilirsiniz. 250408039@ostimteknik.edu.tr
