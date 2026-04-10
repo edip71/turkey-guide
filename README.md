@@ -63,46 +63,50 @@ profillerini kişiselleştirebildiği interaktif bir web platformudur.
 
 ## Klasör Yapısı 
 
+```text
 turkey_guide/
 ├── README.md
 ├── database.sql
 ├── index.php
 ├── docs/
-│ ├── requirements.md
-│ └── uml/
-│ ├── use_case.md
-│ └── class_diagram.md
+│   ├── requirements.md
+│   └── uml/
+│       ├── use_case.md
+│       └── class_diagram.md
 └── src/
-├── config/
-│ └── database.php
-├── controllers/
-│ ├── AuthController.php
-│ └── CityController.php
-├── models/
-│ ├── BaseModel.php
-│ ├── User.php
-│ ├── City.php
-│ ├── Comment.php
-│ └── Like.php
-├── views/
-│ ├── partials/
-│ │ ├── header.php
-│ │ └── footer.php
-│ ├── index.php
-│ ├── login.php
-│ ├── register.php
-│ ├── dashboard.php
-│ ├── city.php
-│ └── profile.php
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── js/
-│ │ └── script.js
-│ └── images/
-│ ├── cities/
-│ └── uploads/
-└── index.php
+    ├── config/
+    │   └── database.php
+    ├── controllers/
+    │   ├── AuthController.php
+    │   └── CityController.php
+    ├── models/
+    │   ├── BaseModel.php
+    │   ├── User.php
+    │   ├── City.php
+    │   ├── Comment.php
+    │   └── Like.php
+    ├── views/
+    │   ├── partials/
+    │   │   ├── header.php
+    │   │   └── footer.php
+    │   ├── index.php
+    │   ├── login.php
+    │   ├── register.php
+    │   ├── dashboard.php
+    │   ├── city.php
+    │   └── profile.php
+    ├── assets/
+    │   ├── css/
+    │   │   └── style.css
+    │   ├── js/
+    │   │   └── script.js
+    │   └── images/
+    │       ├── cities/
+    │       └── uploads/
+    └── index.php
+text
+
+---
 
 ## Geliştirici Notları
 - Proje tamamen **Nesne Yönelimli Programlama** prensiplerine uygundur
