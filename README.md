@@ -104,7 +104,6 @@ turkey_guide/
     │       ├── cities/
     │       └── uploads/
     └── index.php
-text
 
 ---
 
