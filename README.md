@@ -104,8 +104,7 @@ turkey_guide/
     │       ├── cities/
     │       └── uploads/
     └── index.php
-
----
+text---
 
 ## Geliştirici Notları
 - Proje tamamen **Nesne Yönelimli Programlama** prensiplerine uygundur
