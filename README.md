@@ -108,5 +108,5 @@ turkey_guide/
 - **Git** ile versiyonlanmıştır (5+ anlamlı commit)
 
 ## İletişim
-Proje ile ilgili sorularınız için Edip Pehlivanlı'ya başvurabilirsiniz.  
+Proje ile ilgili sorularınız için Edip Pehlivanlı'ya ulaşabilirsiniz.  
 E-posta: 250408039@ostimteknik.edu.tr
