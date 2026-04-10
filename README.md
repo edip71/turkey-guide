@@ -4,8 +4,7 @@
 Türkiye'yi Tanıyalım
 
 ## Proje Amacı
-Bu proje, Türkiye'nin 81 ilini tanıtan, kullanıcıların şehirleri beğenip yorum yapabildiği, 
-profillerini kişiselleştirebildiği interaktif bir web platformudur.
+Bu proje, Türkiye'nin 81 ilini tanıtan, kullanıcıların şehirleri beğenip yorum yapabildiği, profillerini kişiselleştirebildiği interaktif bir web platformudur.
 
 ## Kullanılan Teknolojiler
 - **Backend:** PHP 8.2 (Nesne Yönelimli Programlama ile)
@@ -23,21 +22,15 @@ profillerini kişiselleştirebildiği interaktif bir web platformudur.
 - MySQL 5.7 veya üzeri
 
 ### Adım Adım Kurulum
-
 1. **XAMPP'ı başlatın** (Apache ve MySQL servislerini çalıştırın)
-
 2. **phpMyAdmin'e gidin:** http://localhost/phpmyadmin
-
 3. **Yeni veritabanı oluşturun:** `turkey_guide`
-
 4. **database.sql dosyasını içe aktarın:**
    - phpMyAdmin'de "İçe Aktar" sekmesine tıklayın
-   - database.sql dosyasını seçin
+   - `database.sql` dosyasını seçin
    - "Git" butonuna basın
-
 5. **Proje dosyalarını kopyalayın:**
    - Tüm dosyaları `C:\xampp\htdocs\turkey_guide\` klasörüne koyun
-
 6. **Tarayıcıda açın:** http://localhost/turkey_guide/src/
 
 ### Test Hesabı
@@ -49,7 +42,7 @@ profillerini kişiselleştirebildiği interaktif bir web platformudur.
 
 ## Proje Özellikleri
 | Özellik | Açıklama |
-|---------|----------|
+| :--- | :--- |
 | Kullanıcı Kayıt/Giriş | Şifreler hash'lenerek güvenli şekilde saklanır |
 | 81 İl Kartları | Grid görünümde, arama filtresi ile |
 | Şehir Detay Sayfası | Tarihçe, meşhur yerler, konum bilgileri |
@@ -61,7 +54,7 @@ profillerini kişiselleştirebildiği interaktif bir web platformudur.
 | Responsive Tasarım | Mobil, tablet ve bilgisayar uyumlu |
 | Animasyonlu Arayüz | CSS keyframes, hover efektleri, geçişler |
 
-## Klasör Yapısı 
+## Klasör Yapısı
 
 ```text
 turkey_guide/
@@ -104,7 +97,7 @@ turkey_guide/
     │       ├── cities/
     │       └── uploads/
     └── index.php
-text---
+```
 
 ## Geliştirici Notları
 - Proje tamamen **Nesne Yönelimli Programlama** prensiplerine uygundur
@@ -115,4 +108,5 @@ text---
 - **Git** ile versiyonlanmıştır (5+ anlamlı commit)
 
 ## İletişim
-Proje ile ilgili sorularınız için Edip Pehlivanlı'ya başvurabilirsiniz. 250408039@ostimteknik.edu.tr
+Proje ile ilgili sorularınız için Edip Pehlivanlı'ya başvurabilirsiniz.  
+E-posta: 250408039@ostimteknik.edu.tr
